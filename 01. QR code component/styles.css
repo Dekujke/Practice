@@ -15,10 +15,32 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Outfit", sans-serif;
     background: var(--background);
     min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+/* qr-card start */
+
+.qr-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--card-background);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* qr-card end */
+
+/* footer start */ 
 
 .attribution {
     font-size: 1.1rem;
@@ -28,3 +50,5 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* footer end */
