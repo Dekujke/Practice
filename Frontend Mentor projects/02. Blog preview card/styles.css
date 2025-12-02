@@ -16,11 +16,23 @@ html {
     scroll-behavior: smooth;
 }
 
+/* body start */
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Figtree", sans-serif;
     background: var(--background);
     min-height: 100vh;
 }
+
+/* card start */
+
+
+
+/* card end */
+
+/* body end */
+
+/* footer start */
 
 .attribution { 
     font-size: 11px; 
@@ -30,3 +42,11 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
+
+/* footer end */
+
+/* other start */
+
+
+
+/* other end */
