@@ -22,6 +22,7 @@ body {
     font-family: "Figtree", sans-serif;
     background: var(--background);
     min-height: 100vh;
+    font-size: 1.6rem;
 }
 
 /* card start */
@@ -43,6 +44,39 @@ body {
     background-color: var(--background);
     padding: 10px 15px;
     display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.tag-text {
+    color: var(--big-text);
+}
+
+.publish-date {
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+    color: var(--big-text);
+}
+
+.card-text {
+    color: var(--text);
+    margin-bottom: 45px;
+}
+
+.author-img-container {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.author-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 /* card end */
@@ -95,4 +129,13 @@ body {
     align-items: center;
 }
 
+.normal {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 800;
+}
+
 /* other end */
+
