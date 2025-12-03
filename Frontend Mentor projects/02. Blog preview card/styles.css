@@ -139,3 +139,21 @@ body {
 
 /* other end */
 
+/* media start */
+
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    .card {
+        padding: 20px 15px;
+        max-width: 320px;
+    }
+
+    .vector-img {
+        width: 287px;
+    }
+}
+
+/* media end */
