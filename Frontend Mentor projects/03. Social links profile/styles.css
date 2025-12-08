@@ -1,0 +1,80 @@
+:root {
+    --background: hsl(0, 0%, 8%);
+    --profile-background: hsl(0, 0%, 12%);
+    --hover: hsl(75, 94%, 57%);
+    --text: #fff;
+    --buttons: hsl(0, 0%, 20%);
+
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--background);
+    min-height: 100vh;
+    color: var(--text);
+}
+
+/* main start */
+
+.card {
+    background-color: var(--profile-background);
+    padding: 40px;
+    font-size: 1.4rem;
+}
+
+/* - Weights: 400, 600, 700 */
+
+/* main end*/
+
+/* footer start */
+
+.footer {
+    bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* footer end*/
+
+/* other start */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/*other end */
