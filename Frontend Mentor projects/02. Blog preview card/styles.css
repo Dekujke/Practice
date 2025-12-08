@@ -156,4 +156,15 @@ body {
     }
 }
 
+@media screen and (max-width: 320px) {
+    .card {
+        padding: 15px 10px;
+        max-width: 280px;
+    }
+
+    .vector-img {
+        width: 257px;
+    }
+}
+
 /* media end */
