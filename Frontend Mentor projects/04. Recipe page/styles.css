@@ -42,8 +42,15 @@ section {
     border-bottom: 1px solid var(--lines);
 }
 
+section:first-of-type {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
 section:last-of-type {
     border-bottom: none;
+    margin-bottom: 0;
 }
 
 /*main start */
@@ -233,3 +240,38 @@ section:last-of-type {
 }
 
 /* other end */
+
+/* media start */
+
+@media screen and (max-width: 375px) {
+    body {
+        padding: 0;
+    }
+
+    section {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    section:first-of-type {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .content {
+        margin-bottom: 0;
+        padding: 0;
+        max-width: 375px;
+    }
+
+    .food-img-container {
+        width: 375px;
+        height: 170px;
+    }
+
+    .footer {
+        bottom: 0;
+    }
+}
+
+/* media end*/
