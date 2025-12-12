@@ -29,11 +29,21 @@ body {
     min-height: 100vh;
     font-size: 1.6rem;
     color: var(--text);
-    padding: 120px 0;
+    padding-top: 120px;
 }
 
-ul, ol {
+ul {
     list-style-position: inside;
+}
+
+section {
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid var(--lines);
+}
+
+section:last-of-type {
+    border-bottom: none;
 }
 
 /*main start */
@@ -43,6 +53,7 @@ ul, ol {
     max-width: 735px;
     border-radius: 15px;
     padding: 40px;
+    margin-bottom: 120px;
 }
 
 .food-img-container {
@@ -61,6 +72,7 @@ ul, ol {
 .title {
     color: var(--bolder-text);
     margin-bottom: 20px;
+    font-family: "Young Serif", serif;
     font-size: 4rem;
 }
 
@@ -83,16 +95,93 @@ ul, ol {
 
 .preparation-item {
     margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.preparation-item:last-of-type {
+    margin-bottom: 0;
 }
 
 .preparation-item::marker {
     color: var(--prep-header);
-    margin-right: 5px;
+    font-weight: 600;
+}
+
+.preparation-item span {
+    padding-left: 10px;
+}
+
+.section-title {
+    font-size: 2.8rem;
+    font-family: "Young Serif", serif;
+    color: var(--headers);
+    margin-bottom: 30px;
+}
+
+.ingredients-list {
+    padding-left: 10px;
+}
+
+.ingredient {
+    margin-bottom: 15px;
+}
+
+.ingredient:last-of-type {
+    margin-bottom: 0;
+}
+
+.ingredient::marker {
+    color: var(--headers);
+    font-weight: 600;
+}
+
+.ingredient span {
+    padding-left: 10px;
+}
+
+.instructions-list {
+    padding-left: 20px;
+}
+
+.instruction {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.instruction::marker {
+    color: var(--headers);
+    font-weight: 600;
+}
+
+.nutrition-description {
+    margin-bottom: 10px;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid var(--lines);
+}
+
+.nutrition-table td {
+    padding: 15px 30px;
+}
+
+.total {
+    color: var(--headers);
 }
 
 /* main end */
 
 /* footer start */
+
+.footer {
+    position: relative;
+    bottom: 10px;
+}
 
 .attribution {
     font-size: 1.1rem;
@@ -139,8 +228,8 @@ ul, ol {
     font-weight: 700;
 }
 
-.young-serif {
-    font-family: "Young Serif", serif;
+.absolute {
+    position: absolute;
 }
 
 /* other end */
