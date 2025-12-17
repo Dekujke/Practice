@@ -102,6 +102,10 @@ body {
     cursor: pointer;
 }
 
+.add-to-card-btn:hover {
+    background-color: var(--button-hover);
+}
+
 /* main end */
 
 /* footer start */
@@ -163,9 +167,10 @@ body {
 
 /* media start */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     body {
         padding: 30px 15px;
+        font-size: 1.3rem;
     }
     .content {
         flex-direction: column;
@@ -192,6 +197,38 @@ body {
 
     .right-side-container {
         width: 100%;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .title {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .product-description {
+        max-width: 271px;
+        margin-bottom: 25px;
+    }
+
+    .price-container {
+        margin-bottom: 20px;
+    }
+
+    .final-price {
+        margin-right: 15px;
+    }
+
+    .add-to-card-btn {
+        padding: 15px 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .add-to-card-btn {
+        padding: 15px 60px;
     }
 }
 
