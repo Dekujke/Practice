@@ -183,3 +183,46 @@ h1, h2 {
 }
 
 /* other end */
+
+/* media start */
+
+@media screen and (max-width: 425px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        font-size: 1.3rem;
+    }
+
+    .content {
+        padding: 60px 30px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .second-title {
+        font-size: 2.5rem;
+    }
+
+    .title-description {
+        margin-bottom: 55px;
+    }
+
+    /*.grid-container {
+        display: flex;
+        flex-direction: column;
+    }*/
+
+    .footer {
+        position: static;
+        bottom: 0;
+    }
+}
+
+/* media end */
