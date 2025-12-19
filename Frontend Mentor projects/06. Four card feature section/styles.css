@@ -214,11 +214,6 @@ h1, h2 {
         margin-bottom: 55px;
     }
 
-    /*.grid-container {
-        display: flex;
-        flex-direction: column;
-    }*/
-
     .footer {
         position: static;
         bottom: 0;
