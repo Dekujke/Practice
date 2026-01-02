@@ -33,6 +33,14 @@ body {
     font-size: 1.3rem;
 }
 
+/* main start */
+
+
+
+/* main end */
+
+/* footer start */
+
 .attribution {
     font-size: 1.1rem;
     text-align: center;
@@ -42,4 +50,40 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-/* - Weights: 500, 600 */
+/* footer end */
+
+/* other start */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.normal {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* other end */
