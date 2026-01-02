@@ -35,7 +35,49 @@ body {
 
 /* main start */
 
+.grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 
+.testimonial {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.author-container {
+    margin-bottom: 20px;
+}
+
+.author-photo {
+    border-radius: 50%;
+    margin-right: 15px;
+    max-width: 30px;
+    max-height: 30px;
+    object-fit: cover;
+}
+
+.author-name {
+    margin-bottom: 3px;
+}
+
+.author-description {
+    font-size: 1.2rem;
+}
+
+.purple-testimonial {
+    background-color: var(--purple-card-background);
+    color: var(--purple-text);
+    position: relative;
+    z-index: -1;
+}
+
+.quotes-img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 60px;
+}
 
 /* main end */
 
