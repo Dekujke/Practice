@@ -7,8 +7,8 @@
     --white-text: #fff;
     --purple-text: hsl(260, 100%, 95%);
     --black-text: hsl(224, 10%, 45%);
-    --light-grey-text: hsl(214, 17%, 92%);
-    --grey-text: hsl(0, 0%, 81%);
+    --light-gray-text: hsl(214, 17%, 92%);
+    --gray-text: hsl(0, 0%, 81%);
 
     --quote: hsl(264, 82%, 80%);
     --shadow: hsl(0, 0%, 7%);
@@ -65,11 +65,24 @@ body {
     font-size: 1.2rem;
 }
 
+.testimonial-title {
+    margin-bottom: 20px;
+}
+
 .purple-testimonial {
     background-color: var(--purple-card-background);
     color: var(--purple-text);
     position: relative;
+    max-width: 540px;
     z-index: -1;
+}
+
+.purple-testimonial .testimonial-title {
+    color: var(--white-text);
+}
+
+.purple-testimonial .testimonial-text {
+    max-width: 470px;
 }
 
 .quotes-img {
@@ -77,6 +90,12 @@ body {
     z-index: -1;
     top: 0;
     right: 60px;
+}
+
+.gray-testimonial {
+    background-color: var(--gray-card-background);
+    color: var(--light-gray-text);
+    max-width: 255px;
 }
 
 /* main end */
@@ -118,6 +137,10 @@ body {
 
 .grid {
     display: grid;
+}
+
+.justify-items-center {
+    justify-items: center;
 }
 
 .normal {
