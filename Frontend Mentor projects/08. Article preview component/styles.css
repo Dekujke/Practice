@@ -1,8 +1,13 @@
 :root {
     --background: hsl(210, 46%, 95%);
+
+    --article-background: #fff;
     --social-media-background: hsl(217, 19%, 35%);
+    
     --btn-hover: hsl(214, 17%, 51%);
     --btn: hsl(212, 23%, 69%);
+
+    --text: #000;
 }
 
 * {
@@ -23,6 +28,17 @@ body {
     font-size: 1.3rem;
 }
 
+/* main start */
+
+.content {
+    background-color: var(--article-background);
+    border-radius: 10px;
+}
+
+/* main end */
+
+/* footer start */
+
 .attribution {
     font-size: 1.1rem;
     text-align: center;
@@ -32,4 +48,40 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
-/* - Weights: 500, 700 */
+/* footer end */
+
+/* other start */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.normal {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
+
+/* other end */
