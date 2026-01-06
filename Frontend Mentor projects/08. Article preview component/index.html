@@ -16,13 +16,13 @@
 
     <title>Frontend Mentor | Article preview component</title>
 </head>
-<body>
-    <main class="content">
+<body class="flex column justify-center items-center">
+    <main class="content flex">
         <div class="img-container">
             <img src="./design/images/drawers.jpg" alt="Drawer image"  width="285" height="280">
         </div>
 
-        <article class="article-container">
+        <article class="article-container flex column justify-center items-center">
             <h1 class="article-title">
                 Shift the overall look and feel by 
                 adding these wonderful touches to 
@@ -34,26 +34,29 @@
                 simple tips to help you make any room feel complete.
             </p>
 
-            <div class="article-footer">
-                <div class="author-photo-container">
-                    <div class="author-container">
+            <div class="article-footer flex justify-space-between">
+                    <div class="author-container flex">
+                    <div class="author-photo-container">
                         <img src="./design/images/avatar-michelle.jpg" alt="Author photo" class="author-photo" width="40" height="40">
-                    <div class="author-description-container">
+                    </div>
+
+                    <div class="author-description-container flex column">
                         <p class="author-name">Michelle Appleton</p>
                         <p class="author-date">28 Jun 2020</p>
                     </div>
                     </div>
-                    
-                </div>
+
+                    <button type="button" class="share-btn">Button</button>
+                    <div class="share-container hidden">Share</div>
             </div>
         </article>
     </main>
-
-  Share
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Dekujke">Deku</a>.
-  </div>
+    <footer class="footer">
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/Dekujke">Deku</a>.
+        </div>
+    </footer>
 </body>
 </html>
