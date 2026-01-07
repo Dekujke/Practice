@@ -112,6 +112,36 @@ body {
     fill: #fff;
 }
 
+.share-container {
+    position: relative;
+}
+
+.tooltip {
+    position: absolute;
+    top: -260%;
+    right: -360%;
+    color: var(--text);
+    background-color: var(--social-media-background);
+    padding: 15px 40px;
+    min-width: 245px;
+    border-radius: 10px;
+}
+
+.tooltip::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border: 10px solid var(--social-media-background);
+    border-color: var(--social-media-background) transparent transparent transparent;
+}
+
+.tooltip-text {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
 /* main end */
 
 /* footer start */
@@ -167,6 +197,10 @@ body {
 
 .hidden {
     display: none;
+}
+
+.active {
+    background-color: var(--btn-hover);
 }
 
 /* other end */
