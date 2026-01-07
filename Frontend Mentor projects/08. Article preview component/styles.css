@@ -203,4 +203,8 @@ body {
     background-color: var(--btn-hover);
 }
 
+.fill {
+    fill: #fff;
+}
+
 /* other end */
