@@ -269,4 +269,9 @@ body {
     .article-container {
         padding: 30px 20px 15px 20px;
     }
+
+    .tooltip {
+        right: -67%;
+        min-width: 305px;
+    }
 }
