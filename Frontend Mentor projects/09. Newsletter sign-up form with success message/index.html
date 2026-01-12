@@ -19,44 +19,50 @@
 <body>
 
     <main class="content">
-        <div class="form-img-container">
-            <img src="./design/images/illustration-sign-up-mobile.svg" alt="" class="form-img" width="375" height="285">
-            <img src="./design/images/illustration-sign-up-tablet.svg" alt="" class="form-img-tablet hidden">
-            <img src="./design/images/illustration-sign-up-desktop.svg" alt="" class="form-img-desktop hidden">
+        <div class="form-container">
+            <div class="form-img-container">
+                <img src="./design/images/illustration-sign-up-mobile.svg" alt="" class="form-img" width="375" height="285">
+                <img src="./design/images/illustration-sign-up-tablet.svg" alt="" class="form-img-tablet hidden">
+                <img src="./design/images/illustration-sign-up-desktop.svg" alt="" class="form-img-desktop hidden">
+            </div>
+
+            <form class="subscribe-form" action="" method="post">
+                <h1 class="title">Stay updated!</h1>
+
+                <p class="form-text">
+                    Join 60,000+ product managers receiving 
+                    monthly updates on:
+                </p>
+                <ul class="updates-list">
+                    <li class="update">Product discovery and building what matters</li>
+                    <li class="update">Measuring to ensure updates are a success</li>
+                    <li class="update">And much more!</li>
+                </ul>
+
+                <label for="email-input" class="email-label">Email address</label>
+                <input type="email" name="email-input" id="email-input" class="email-input" placeholder="email@company.com">
+                
+                <button type="submit" class="submit-btn">Subscribe to monthly newsletter</button>
+            </form>
         </div>
 
-        <form class="subscribe-form" action="" method="post">
+        <div class="success-container hidden">
+            <div class="success-img-container">
+                <img src="./design/images/icon-success.svg" alt="success icon" class="success-img" width="65" height="65">
+            </div>
 
-        </form>
+            <h2 class="success-title">
+                Thanks for subscribing!
+            </h2>
+            <p class="success-text">
+                A confirmation email has been sent to 
+                ash@loremcompany.com. Please open it and click 
+                the button inside to confirm your subscription.
+            </p>
+
+            <button type="button" class="dismiss-btn">Dismiss message</button>
+        </div>
     </main>
-
-  <!-- Sign-up form start -->
-
-  Stay updated!
-
-  Join 60,000+ product managers receiving monthly updates on:
-
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
-
-  Email address
-  email@company.com
-
-  Subscribe to monthly newsletter
-
-  <!-- Sign-up form end -->
-
-  <!-- Success message start -->
-
-  Thanks for subscribing!
-
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message
-
-  <!-- Success message end -->
 
     <footer class="footer">
         <div class="attribution">
