@@ -1,10 +1,10 @@
 :root {
     --background: hsl(235, 18%, 26%);
-    --form-background: #fff;
+    --background-form: #fff;
 
     --text: hsl(235, 18%, 26%);
     --text-bold: hsl(234, 29%, 20%);
-    --text-thin: hsl(0, 0%,58%);
+    --text-email: hsl(0, 0%,58%);
 
     --checkers: hsl(4, 100%, 67%);
 }
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
     background: var(--background);
     min-height: 100vh;
     font-size: 1.6rem;
@@ -35,3 +35,19 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* other start */
+
+.normal {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
+
+/* other end */
