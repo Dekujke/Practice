@@ -6,7 +6,7 @@
     --text-bold: hsl(234, 29%, 20%);
     --text-email: hsl(0, 0%,58%);
 
-    --checkers: hsl(4, 100%, 67%);
+    --hover: hsl(4, 100%, 67%);
 }
 
 * {
@@ -25,7 +25,46 @@ body {
     background: var(--background);
     min-height: 100vh;
     font-size: 1.6rem;
+    color: var(--text);
 }
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* main start */
+
+.content {
+    background-color: var(--background-form);
+    min-height: 100vh;
+}
+
+.form-container {
+    height: 100%;
+}
+
+.form-img-container {
+    min-width: 100%;
+    max-height: 285px;
+}
+
+.subscribe-form {
+    padding: 45px 25px;
+}
+
+.title {
+    color: var(--text-bold);
+}
+
+.updates-list {
+    list-style-image: url(./design/images/icon-list.svg);
+}
+
+/* main end */
+
+/* footer start */
 
 .attribution {
     font-size: 1.1rem;
@@ -35,6 +74,8 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* footer end */
 
 /* other start */
 
@@ -60,6 +101,10 @@ body {
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
 }
 
 /* other end */
