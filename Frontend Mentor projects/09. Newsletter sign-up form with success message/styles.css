@@ -1,0 +1,37 @@
+:root {
+    --background: hsl(235, 18%, 26%);
+    --form-background: #fff;
+
+    --text: hsl(235, 18%, 26%);
+    --text-bold: hsl(234, 29%, 20%);
+    --text-thin: hsl(0, 0%,58%);
+
+    --checkers: hsl(4, 100%, 67%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    min-height: 100vh;
+    font-size: 1.6rem;
+}
+
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
