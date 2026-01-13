@@ -102,6 +102,12 @@ img {
     background-color: var(--text);
     color: #fff;
     border-radius: 10px;
+    font-weight: 700;
+}
+
+.submit-btn:hover, .submit-btn:active {
+    background: linear-gradient(90deg, #ff5476, #ff693e);
+    box-shadow: -5px 20px 17px -5px #fec6c1;
 }
 
 /* main end */
@@ -109,9 +115,7 @@ img {
 /* footer start */
 
 .footer {
-    bottom: -25px;
-    width: 100%;
-    display: block;
+    background-color: var(--background-form);
 }
 
 .attribution {
