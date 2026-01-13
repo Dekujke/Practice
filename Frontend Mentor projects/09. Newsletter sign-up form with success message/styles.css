@@ -200,3 +200,17 @@ img {
 .success-container {
     display: none;
 }
+
+/* media start */
+
+@media screen and (max-width: 768px) {
+    .form-img {
+        display: none;
+    }
+
+    .form-img-tablet {
+        display: block;
+    }
+}
+
+/* media end */
