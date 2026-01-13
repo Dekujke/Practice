@@ -39,7 +39,10 @@
                     <li class="updates-list-item">And much more!</li>
                 </ul>
 
-                <label for="email-input" class="email-label bold">Email address</label>
+                <div class="label-container flex justify-space-between">
+                    <label for="email-input" class="email-label bold">Email address</label>
+                    <span class="error-message bold hidden">Valid email required</span>
+                </div>
                 <input type="email" name="email-input" id="email-input" class="email-input" placeholder="email@company.com">
                 
                 <button type="submit" class="submit-btn">Subscribe to monthly newsletter</button>
