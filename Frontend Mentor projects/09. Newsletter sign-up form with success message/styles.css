@@ -40,6 +40,8 @@ img {
     min-height: 100vh;
 }
 
+/* form start */
+
 .form-img-container {
     min-width: 100%;
     max-height: 285px;
@@ -110,6 +112,33 @@ img {
     box-shadow: -5px 20px 17px -5px #fec6c1;
 }
 
+/* form end */
+
+/* success block start */
+
+.success-container {
+    padding: 150px 25px 40px 25px;
+    min-height: 100vh;
+}
+
+.success-img-container {
+    max-width: 65px;
+    max-height: 65px;
+    margin-bottom: 45px;
+}
+
+.success-title {
+    font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 35px;
+}
+
+.dismiss-btn {
+    margin-bottom: auto;
+}
+
+/* success block end */
+
 /* main end */
 
 /* footer start */
@@ -167,3 +196,7 @@ img {
 }
 
 /* other end */
+
+.success-container {
+    display: none;
+}
